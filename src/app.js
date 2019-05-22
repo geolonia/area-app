@@ -1,7 +1,6 @@
 import 'babel-polyfill';
 import turfArea from '@turf/area'
 import MapboxDraw from '@mapbox/mapbox-gl-draw'
-import turfCenter from '@turf/center'
 import '@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.css'
 import './style.css'
 
