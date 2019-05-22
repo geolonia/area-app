@@ -1,0 +1,18 @@
+{
+  "name": "area-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -d ./docs src/index.html --open",
+    "build": "parcel build -d ./docs src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/area": "^6.0.1",
+    "babel-polyfill": "^6.26.0",
+    "parcel": "^1.12.3"
+  }
+}
